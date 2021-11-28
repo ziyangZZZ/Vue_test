@@ -1,6 +1,6 @@
 <template>
   <div class="HeaderContainer">
-    面包屑
+    
   </div>
 </template>
 

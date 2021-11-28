@@ -12,7 +12,7 @@
       </div>
       <div class="content">
         <BreadCrumb/>
-        <router-view/>
+        <router-view></router-view>
       </div>
     </div>
     
@@ -20,6 +20,7 @@
 </template>
 
 <script>
+
 import Navigator from './Navigator.vue';
 import ItsHeader from './ItsHeader.vue'
 import HeaderContainer from './HeaderContainer.vue'
@@ -27,7 +28,7 @@ import HeaderContainer from './HeaderContainer.vue'
 import BreadCrumb from './BreadCrumb.vue'
   export default {
     name: "Main",
-    components: { Navigator ,ItsHeader,HeaderContainer,BreadCrumb},
+    components: { Navigator ,ItsHeader,HeaderContainer,BreadCrumb, },
   };
 </script>
 
@@ -67,9 +68,9 @@ import BreadCrumb from './BreadCrumb.vue'
 .main .content-container .content{
 background-color: cyan;
 flex-grow: 1;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
+/* display: flex; */
+/* flex-direction: column; */
+/* align-items: flex-end; */
 
 }
 

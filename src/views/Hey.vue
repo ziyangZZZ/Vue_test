@@ -1,13 +1,12 @@
 <template>
   <div>
-      <h3><button>111111</button></h3>
-      <router-view></router-view>
+      <h3>233</h3>
   </div>
 </template>
 
 <script>
     export default {
-        name :'Button'
+        name :'Hey'
     }
 </script>
 

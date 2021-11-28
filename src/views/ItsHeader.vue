@@ -1,7 +1,7 @@
 <template>
-  <div>
-      <el-avatar src="circleUrl" shape="square" fit="fill" size="large">
-          
+  <div class="itsHeader">
+      <el-avatar src="circleUrl"   size="50">
+          头像
       </el-avatar>
       
   </div>
